@@ -1,0 +1,180 @@
+# 5th page
+# contact<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="float:left; width:10%; position: fixed;">
+
+        <a href="portfolio.html"> <button id="home" class="button"> <img src="home-pic-2.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+
+
+        <a href="about.html"> <button id="about" class="button"><img src="about.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="education.html"> <button id="education" class="button"><img src="education.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="skills.html"> <button id="skills" class="button"> <img src="skills.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="contact.html"> <button id="contact" class="disable_button"><img src="contacts.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+
+    </div>
+
+
+    <div style="float:left; width:40%;  padding-top:5%; padding-left: 18%; ">
+
+
+        <p>
+
+            <button id="call" class="button3"><img src="call pic.png" alt="phone" width="50" height="50"> </button>
+            7003556803 <br><br>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"> <button id="gmail"
+                    class="button2">
+                    <img src="email.png" alt="email" width="50" height="50"> </button> </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+                ayaz.cool11@gmail.com</a>&nbsp&nbsp&nbsp <br><br>
+            <a href="https://www.google.com/maps/place/22%C2%B034'03.8%22N+88%C2%B017'01.0%22E/@22.5677188,88.2829751,159m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d22.5677176!4d88.2836188?entry=ttu"
+                target="_blank"> <button id="address" class="button2"> <img src="home pic.png" alt="address" width="50"
+                        height="50"> </button> </a>
+            south buxarah village road, <br> &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 howrah - 10
+            <br><br><br>
+
+            <a href="https://www.facebook.com/ayz.vonda/" target="_blank"> <button id="fb" class="button2"> <img
+                        src="fb.png" height="50" width="50"> </button> </a> &#160&#160
+            <a href="https://www.linkedin.com/in/md-ayazuddin-a6b399147/" target="_blank"> <button id="fb"
+                    class="button2"> <img src="linkedin.png" height="50" width="50"> </button> </a>&#160&#160
+            <a href="https://www.instagram.com/ayz_08" target="_blank"> <button id="fb" class="button2"> <img
+                        src="insta.jpg" height="50" width="50"> </button> </a>&#160&#160
+            <a href="https://twitter.com/ayz_vonda" target="_blank"> <button id="fb" class="button2"> <img
+                        src="twitter.jpg" height="50" width="50"> </button> </a>
+
+
+
+
+            <br>
+        </p>
+    </div>
+
+    <div style="float: right; height: 5%; width: 40%; padding-top: 5%;">
+        <form action="form.php" method="post">
+          <p>
+            <label for="name"> Name : </label> &#160 &#160 &#160 <input type="text" class="input_box" name="name" id="name" placeholder="Your Name"
+                required>  <br> <br>
+           <label for="email_address"> E.mail : </label>&#160&#160&#160&#160 <input type="email" class="input_box" name="email_address" id="email_address"
+                placeholder="Your Email Address">  <br> <br>
+            <label for="mobile_number"> Mobile : </label> &#160&#160&#160 <input type="number" class="input_box" name="mobile_number" id="mobile_number"
+                placeholder="Your Mobile Number" required> <br> <br>
+            <label for="message"> Message : </label> &#160 <textarea name="message" class="input_box" id="message" placeholder="Suggestions, If any..."
+                cols="21" rows="5" required></textarea> <br> <br> <br>
+            &#160&#160&#160&#160&#160 <input type="submit" class="button1" id="submit" value="submit"> 
+            <img src="Ayaz cv.png"  id="cv" alt="cv"  >
+
+          </p>
+        </form>
+
+       
+    </div>
+ 
+
+ 
+
+    <style>
+        body {
+            color: aliceblue;
+            background-color: black;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        a {
+            color: rgb(243, 235, 239);
+            text-decoration: none;
+        }
+
+        .input_box {
+            background-color: #353434;
+            color: azure;
+        }
+
+        .input_box:hover {
+            opacity: 0.6;
+        }
+
+
+
+        .button1 {
+            background-color: #5b5b5b;
+            border-color: #d4d1d1;
+            text-align: center;
+            font-size: 20px;
+            color: aliceblue;
+
+        }
+
+        .button1:hover {
+            opacity: 0.6;
+        }
+
+        .button2:hover {
+            opacity: 0.3;
+        }
+
+
+
+
+
+
+
+
+        .button {
+            position: relative;
+            left: -40px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            opacity: 0.6;
+            left: 0px;
+        }
+
+        button:active {
+            background-color: #5f6463;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+
+        .disable_button {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .disable_button:hover {
+            opacity: 0.6;
+            left: 0px;
+        }
+
+        #cv{
+            height: 90px;
+            width: 90px;
+            padding-left: 20%;
+
+        }
+    </style>
+</body>
+
+</html>
+
