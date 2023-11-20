@@ -1,0 +1,186 @@
+# about section
+# second page
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="float:left; width:10%; position: fixed;">
+
+        <a href="portfolio.html"> <button id="home" class="button"> <img src="home-pic-2.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+
+
+        <a href="about.html"> <button id="about" class="disable_button"><img src="about.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="education.html"> <button id="education" class="button"><img src="education.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="skills.html"> <button id="skills" class="button"> <img src="skills.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="contact.html"> <button id="contact" class="button"><img src="contacts.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+
+    </div>
+
+
+    <div style="float:right; height: 45px; width:85%;   ">
+        <div> <br>
+            <p1> &#160 About :- &#160</p1>
+            <br><br>
+            <p>
+                Meet <b>MD AYAZUDDIN</b>, a highly skilled and dedicated professional who graduated with a <b>B.Tech
+                </b>degree in <b>2019</b>, With a strong academic foundation and a
+                passion for excellence, he has embarked on a career journey that led him to <b>Amazon</b>.
+                <br><br>
+            </p>
+        </div>
+        <hr><br><br>
+
+        <div>
+            <p1> &#160 Objective :- &#160</p1>
+            <br><br>
+            <p>
+                Through my commitment to continuous improvement and my ability to adapt to evolving challenges, I aim to
+                make
+                meaningful contributions that positively impacts the company's growth, reputation, and bottom line.
+                <br><br>
+            </p>
+        </div>
+        <hr><br><br>
+
+        <div>
+            <p1>&#160 Language Known :- &#160</p1>
+            <br><br>
+            <ul style="font-size: 25px;">
+                <li>English : Speaking, Reading, Writing</li>
+                <li>Hindi : Speaking, Reading, Writing</li>
+                <li>Bengoli : Speaking, Reading, Writing</li>
+                <li>Urdu : Speaking</li>
+            </ul>
+
+            <br>
+            <hr><br><br>
+
+        </div>
+
+
+        <div>
+            <p1> &#160 Personal Details :- &#160</p1>
+            <br><br>
+            <p>
+                Name &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 :- Md Ayazuddin <br>
+                Nationality &#160&#160&#160&#160&#160&#160&#160&#160&#160 :- Indian <br>
+                Father's Name &#160&#160&#160&#160 :- Md Reyazuddin <br>
+                Mother's Name &#160&#160 :- Naaz Bano <br>
+                Date Of Birth&#160&#160&#160&#160&#160&#160 :- 25th of July,1996 <br>
+                Marital Status &#160&#160&#160&#160&#160:- Single <br>
+            </p>
+            <br><hr><br><br>
+        </div>
+    </div>
+
+
+
+
+
+
+    <style>
+        body {
+            color: aliceblue;
+            background-color: black;
+        }
+
+        p1 {
+            font-size: 60px;
+           
+        }
+
+
+
+        p1 {
+            display: inline;
+            position: relative;
+            overflow: hidden;
+        }
+
+        p1:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            right: 100%;
+            bottom: -5px;
+            background: aliceblue;
+            height: 4px;
+            transition-property: left right;
+            transition-duration: 0.6s;
+            transition-timing-function: ease-out;
+        }
+
+        p1:hover:after,
+        p1:focus:after,
+        p1:active:after {
+            right: 0;
+        }
+
+
+
+        p {
+            font-size: 25px;
+            padding-right: 20%;
+        }
+        .button {
+            position: relative;
+            left: -40px;
+            transition: 0.3s;
+
+
+        }
+
+        .button:hover {
+            opacity: 0.6;
+            left:0px;
+
+        }
+
+        .disable_button {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        button:active {
+            background-color: #5f6463;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .disable_button {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .disable_button:hover {
+            opacity: 0.6;
+            left:0px;
+        }
+
+        .disable_button:active {
+            background-color: #5f6463;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</body>
+
+</html>
