@@ -1,0 +1,185 @@
+# third page
+# experience and education
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="float:left; width:10%; position: fixed;">
+
+        <a href="portfolio.html"> <button id="home" class="button"> <img src="home-pic-2.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+
+
+        <a href="about.html"> <button id="about" class="button"><img src="about.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="education.html"> <button id="education" class="disable_button"><img src="education.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="skills.html"> <button id="skills" class="button"> <img src="skills.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="contact.html"> <button id="contact" class="button"><img src="contacts.png" height="100px"
+                    width="100px" /></button> </a> <br>
+    </div>
+
+
+    <div style="float: right; width: 85%;">
+
+
+        <div>
+            <p1> &#160 Experience :- &#160 </p1>
+            <br><br>
+
+            <h1>Amazon : </h1>
+                <p style=" font-size: 30px;">
+                    > Working in Amazon as a Quality speacialist. <br>
+                    > Having experience of 4+ year. <br>
+                    > Deals with the defect detection of the machine learned geocodes. <br>
+                    > deliver results within a fixed bound time(SLA) with top-notch quality to satisfy the customers. <br>
+                </p>
+            <br><br>
+
+        </div>
+        <hr><br>
+
+        <div>
+            <p1> &#160Education :-&#160</p1>
+            <br><br><br><br>
+            <p>
+            <table
+                style="font-size: 25px; border: double  10px #928f8f;  padding: 10px; margin: 20px; text-align: center; overflow-x:auto;">
+                <thead>
+                    <tr style="color: rgb(191, 199, 207); font-size: 40px; ">
+                        <th>Year&#160&#160&#160&#160&#160&#160</th>
+                        <th>Degree&#160&#160&#160&#160</th>
+                        <th>Board/University</th>
+                        <th>Organisation</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2019&#160&#160&#160&#160&#160&#160</td>
+                        <td>B.tech&#160&#160&#160&#160</td>
+                        <td>MAKAUT</td>
+                        <td>BBIT</td>
+                        <td>7.5 DGPA</td>
+                    </tr>
+                    <tr>
+                        <td>2015&#160&#160&#160&#160&#160&#160</td>
+                        <td>class 12&#160&#160&#160&#160</td>
+                        <td>ISC</td>
+                        <td>MARIAS DAY SCHOOL</td>
+                        <td>65.83%</td>
+                    </tr>
+                    <tr>
+                        <td>2013&#160&#160&#160&#160&#160&#160</td>
+                        <td>class 10&#160&#160&#160&#160</td>
+                        <td>ICSE</td>
+                        <td>LYCEUM ENGLISH MEDIUM SCHOOL</td>
+                        <td>65.33%</td>
+                    </tr>
+                </tbody>
+            </table>
+            </p>
+        </div>
+        <br>
+        <hr><br><br>
+
+
+    </div>
+
+    <style>
+        body {
+            color: aliceblue;
+            background-color: black;
+        }
+
+        th,
+        td {
+            border: solid 2px;
+            padding: 5px;
+        }
+
+        tr:hover {
+            background-color: #3c3e3d;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+
+        }
+
+
+
+        p1 {
+            font-size: 80px;
+        }
+
+        p1 {
+            display: inline;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        p1:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            right: 100%;
+            bottom: -5px;
+            background: aliceblue;
+            height: 4px;
+            transition-property: left right;
+            transition-duration: 0.6s;
+            transition-timing-function: ease-out;
+        }
+
+        p1:hover:after,
+        p1:focus:after,
+        p1:active:after {
+            right: 0;
+        }
+
+
+
+
+        .button {
+            position: relative;
+            left: -40px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            opacity: 0.6;
+            left: 0px;
+        }
+
+        button:active {
+            background-color: #5f6463;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .disable_button {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .disable_button:hover {
+            opacity: 0.6;
+            left: 0px;
+        }
+    </style>
+</body>
+
+</html>
