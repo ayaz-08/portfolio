@@ -1,0 +1,133 @@
+# 4th page
+# skills and achivement
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="float:left; width:15%; position: fixed;">
+
+        <a href="portfolio.html"> <button id="home" class="button"> <img src="home-pic-2.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+                  
+
+        <a href="about.html"> <button id="about" class="button"><img src="about.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+        <a href="education.html"> <button id="education" class="button"><img src="education.png" height="100px"
+                    width="100px" /></button> </a> <br>
+
+         <a href="skills.html"> <button id="skills" class="disable_button"> <img src="skills.png" height="100px"
+                        width="100px" /></button> </a> <br>
+
+        <a href="contact.html"> <button id="contact" class="button"><img src="contacts.png" height="100px"
+                    width="100px" /></button> </a> <br>
+    </div> 
+
+
+    <div style="float: left; width:35%; padding-left: 19%;">
+        <br> <br> <br> <br>
+    <p1> &#160 Skills :-&#160 </p1>
+    <br><br>
+    <ul style="font-size: 30px;">
+        <li>html</li>
+        <li>CSS</li>
+        <li>java Script</li>
+        <li>java</li>
+        <li>phython</li>
+        <li>sql</li>
+        <li>DBMS</li>
+        <li>DSA</li>
+      </ul>
+</div>
+
+
+<div style="float: right; width: 45%;">
+    <br><br><br><br>
+    <p1> &#160 Achivements :- &#160</p1>
+    <br><br>
+    <ul style="font-size: 30px;">
+        <li> Received multiple top performer awards.</li>
+        <li> Soon after a few weeks of being placed in a new team, I gave tranning to other new folks about the process. </li>
+        <li> Received the ABCD(Avobe and Beyond Call of Duty) award in Q1' 2023 for the input which almost increased the productivity by 10%. </li>
+    </ul>
+   
+</div>
+
+    <style>
+        body {
+            color: aliceblue;
+            background-color: black;
+        }
+
+
+        p1 {
+            font-size: 70px;
+            display: inline;
+            position: relative;
+            overflow: hidden;
+        }
+
+        p1:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            right: 100%;
+            bottom: -5px;
+            background:aliceblue;
+            height: 4px;
+            transition-property: left right;
+            transition-duration: 0.6s;
+            transition-timing-function: ease-out;
+        }
+
+        p1:hover:after,
+        p1:focus:after,
+        p1:active:after {
+            right: 0;
+        }
+
+        .button {
+            position: relative;
+            left: -40px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            opacity: 0.6;
+            left: 0px;
+        }
+
+        button:active {
+            background-color: #5f6463;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .disable_button {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .disable_button:hover {
+            opacity: 0.6;
+            left:0px;
+        }
+
+       
+
+       
+        
+    
+    </style>
+    
+    
+    
+    
+</body>
+</html>
